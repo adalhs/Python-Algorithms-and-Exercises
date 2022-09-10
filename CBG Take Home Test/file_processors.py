@@ -18,7 +18,7 @@ def process_contests_file():
     contest_id_pairs = {}
 
     try:
-        with open("contests.csv", "r") as contests_file:
+        with open("files\\contests.csv", "r") as contests_file:
             reader = csv.reader(contests_file)
             for row in reader:
                 if len(contest_list) == 0:
@@ -40,7 +40,7 @@ def process_contests_file():
         print("Error reading file.")
 
     try:
-        with open("contests.csv", "w", encoding="UTF-8", newline="") as contests_file:
+        with open("files\\contests.csv", "w", encoding="UTF-8", newline="") as contests_file:
             writer = csv.writer(contests_file)
             writer.writerows(contest_list)
     except IOError:
@@ -60,7 +60,7 @@ def process_choices_file(id_pairs):
     corrected_info = []
 
     try:
-        with open("choices.csv", "r") as choices_file:
+        with open("files\\choices.csv", "r") as choices_file:
             reader = csv.reader(choices_file)
             for row in reader:
                 if len(choices_list) == 0:
@@ -86,7 +86,7 @@ def process_choices_file(id_pairs):
         print("Error reading file.")
 
     try:
-        with open("choices.csv", "w", encoding="UTF-8", newline="") as choices_file:
+        with open("files\\choices.csv", "w", encoding="UTF-8", newline="") as choices_file:
             writer = csv.writer(choices_file)
             writer.writerows(choices_list)
 
@@ -104,7 +104,7 @@ def process_ballotmapper_file(new_info):
     ballotmapper_list = []
     record_counter = 0
     try:
-        with open("ballotmapper.csv", "r") as ballotmapper_file:
+        with open("files\\ballotmapper.csv", "r") as ballotmapper_file:
             reader = csv.reader(ballotmapper_file)
             for row in reader:
                 for i in new_info:
@@ -124,7 +124,7 @@ def process_ballotmapper_file(new_info):
         print("Error reading file.")
 
     try:
-        with open("ballotmapper.csv", "w", encoding="UTF-8", newline="") as ballotmapper_file:
+        with open("files\\ballotmapper.csv", "w", encoding="UTF-8", newline="") as ballotmapper_file:
             writer = csv.writer(ballotmapper_file)
             writer.writerows(ballotmapper_list)
             print(str(record_counter) +
