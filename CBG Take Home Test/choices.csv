@@ -1,0 +1,23 @@
+ChoiceID,ContestID,ChoiceName,ContestAndChoiceName,ChoiceFullName,ChoiceType
+1,1,YES/FOR,Shall there be an amendment to the Colorado ...:YES/FOR,YES/FOR,Q
+2,1,NO/AGAINST,Shall there be an amendment to the Colorado ...:NO/AGAINST,NO/AGAINST,Q
+3,2,YES/FOR,"SHALL STATE TAXES BE INCREASED $137,600,000 ...:YES/FOR",YES/FOR,Q
+4,2,NO/AGAINST,"SHALL STATE TAXES BE INCREASED $137,600,000 ...:NO/AGAINST",NO/AGAINST,Q
+5,3,YES/FOR,Shall there be a change to the Colorado Revised ...:YES/FOR,YES/FOR,Q
+6,3,NO/AGAINST,Shall there be a change to the Colorado Revised ...:NO/AGAINST,NO/AGAINST,Q
+7,4,YES/FOR,"SHALL MESA COUNTY TAXES BE INCREASED BY $752,000 ...:YES/FOR",YES/FOR,Q
+8,4,NO/AGAINST,"SHALL MESA COUNTY TAXES BE INCREASED BY $752,000 ...:NO/AGAINST",NO/AGAINST,Q
+9,5,YES/FOR,"Without increasing taxes, shall Mesa County, ...:YES/FOR",YES/FOR,Q
+10,5,NO/AGAINST,"Without increasing taxes, shall Mesa County, ...:NO/AGAINST",NO/AGAINST,Q
+11,6,YES/FOR,Shall Mesa County permit optional premises ...:YES/FOR,YES/FOR,Q
+12,6,NO/AGAINST,Shall Mesa County permit optional premises ...:NO/AGAINST,NO/AGAINST,Q
+13,7,YES/FOR,SHALL THE TOWN OF DE BEQUE'S TAXES BE INCREASED ...:YES/FOR,YES/FOR,Q
+14,7,NO/AGAINST,SHALL THE TOWN OF DE BEQUE'S TAXES BE INCREASED ...:NO/AGAINST,NO/AGAINST,Q
+15,8,Austin DeWitt,Mesa County Valley School District 51-Director ...:Austin DeWitt,Austin DeWitt,C
+16,8,Trish Mahre,Mesa County Valley School District 51-Director ...:Trish Mahre,Trish Mahre,C
+17,8,Andrea Haitz,Mesa County Valley School District 51-Director ...:Andrea Haitz,Andrea Haitz,C
+18,9,Nick Allan,Mesa County Valley School District 51-Director ...:Nick Allan,Nick Allan,C
+19,9,Willie Jones,Mesa County Valley School District 51-Director ...:Willie Jones,Willie Jones,C
+20,10,Austin DeWitt D,Mesa County Valley School District 51-Director ...:Austin DeWitt D,Austin DeWitt D,C
+21,10,Trish Mahre,Mesa County Valley School District 51-Director ...:Trish Mahre,Trish Mahre,C
+22,10,Andrea Haitz,Mesa County Valley School District 51-Director ...:Andrea Haitz,Andrea Haitz,C
